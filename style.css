@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+.back {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  /* font: 16px normal "Roboto", sans-serif; */
+}
+
+body {
+  background: rgb(222, 215, 216);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 150px;
+  display: block;
+  text-align: center;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.flag {
+  float: right;
+  width: 30%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgb(245, 44, 44);
+}
+
+.bio {
+  padding: 15px;
+  border: 1px solid rgb(68, 66, 66);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.press:hover {
+  text-decoration: underline;
+  border: 2px solid none rgb(0, 0, 0);
+  background-color: #474747;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.press {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #474747;
+  color: #fff;
+  border: none;
+}
+
+.vik:hover {
+  text-decoration: underline;
+}
+
+.flaghis {
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.flaghis h3 {
+  text-decoration: underline;
+}
+
+.bg-flag {
+  background-color: rgb(187, 193, 206);
+  box-shadow: 0px -15px 18px rgb(187, 193, 206);
+}
+
+.bg-sv {
+  background-color: rgb(218, 223, 185);
+  box-shadow: 15px -10px 18px rgb(218, 223, 185);
+  max-width: 400px;
+  margin-bottom: 50%;
+}
+
+.flag {
+  width: 25%;
+  position: static;
+}
+
+.tabl {
+  background-color: rgb(218, 223, 185);
+  box-shadow: 15px -10px 18px rgb(218, 223, 185);
+  width: 60%;
+  padding: 15px;
+  margin-bottom: 50%;
+  border-radius: 15px;
+  display: flex;
+}
+
+.tabl img {
+  margin-bottom: 10px;
+  padding-right: 30px;
+}
+
+.tabl td {
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.tabl td:nth-child(3) {
+  color: #86898f;
+}
+
+.tabl td:nth-child(4) {
+  color: #86898f;
+}
+
+.contact label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.group input,
+.group textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0 10px;
+  outline: none;
+  font-family: inherit;
+  resize: none;
+}
+
+.flags img {
+  margin-bottom: 10px;
+  padding-right: 30px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
